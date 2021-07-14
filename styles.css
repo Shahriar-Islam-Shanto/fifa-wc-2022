@@ -2,8 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     height: 3750px;
-    width: 1440px;
-    background-color: ;
+    width: 1440px; ;
     margin: 0;
 }
 
@@ -43,7 +42,8 @@ button {
     background-color: #E02C6D;
     border-radius: 5px;
     height: 44px;
-    width: 168px;;
+    width: 168px;
+    border: none;
 }
 .world-cup-logo{
     margin-left: 102px;
@@ -63,6 +63,7 @@ grid-gap: 30px;
 align-items: center;
 padding-left: 180px;
 padding-right: 180px;
+margin-bottom: 150px;
 }
 .section-title {
     font-size: 30px;
@@ -102,4 +103,59 @@ padding-right: 180px;
     text-align: justify;
 }
 
+/*----------------------------
+    Highlights Section
+-----------------------------*/
 
+.highlight{
+    display: flex;
+    align-items: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-bottom: 150px;
+}
+.highlights-info{
+    margin-right:66px
+
+}
+.highlights-info h2 {
+    font-size: 48px;
+    font-weight: 700px;
+    margin: 0;
+}
+.highlights-info p {
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.highlight img {
+    height: 427px;
+    width: 567px;
+}
+    
+/*----------------------------
+    Footer Section
+-----------------------------*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer img{
+    height: 110px;
+    width: 484px;
+    margin-bottom: 10px;
+}
+.social-links{
+    display: flex
+    
+    
+}
+.footer a{
+    text-decoration: none;
+    color: #969BAB;
+    font-size: 30px;
+    padding: 20px;
+}
+footer{
+    margin-top: 20px
+}
