@@ -1,0 +1,42 @@
+.leader {
+    border-radius: 10px;
+    background-color:lightyellow;
+    box-shadow: 2px 4px 10px lightgray;
+}
+
+.card img {
+    border-radius: 35px;
+    width: 60%;
+    height: 200px;
+}
+
+.information {
+    margin-left: 10px;
+}
+
+.btn-add-to-cart {
+    background-color: rgb(231, 209, 81);
+    color: rgb(70, 53, 53);
+    font-weight: 600;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.btn-add-to-cart:hover {
+    background-color: rgb(226, 197, 32);
+    color: rgb(53, 42, 42);
+    border: 1px solid maroon;
+}
+
+.social-icons {
+    font-size: 35px;
+    padding: 10px 0;
+}
+
+.fa-facebook-square:hover {
+    color: rgb(46, 46, 248);
+}
+
+.fa-twitter-square:hover {
+    color: rgb(74, 124, 218);
+}

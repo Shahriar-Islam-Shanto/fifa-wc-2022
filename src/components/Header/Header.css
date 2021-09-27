@@ -1,0 +1,13 @@
+.header-container {
+    text-align: center;
+    background-color: lightslategray;
+    padding: 30px 15px;
+}
+
+.description, .header-title {
+    color: whitesmoke;
+}
+
+.text-budget {
+    color: rgb(231, 209, 81);
+}

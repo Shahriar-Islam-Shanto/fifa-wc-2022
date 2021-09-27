@@ -1,0 +1,22 @@
+.leaders-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.leaders {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin: 10px;
+    padding-right: 10px;
+    border-right: 1px solid silver;
+}
+
+.cart-container {
+    padding: 10px 5px;
+    text-align: center;
+    color: rgb(39, 34, 34);
+}
+
+.hr {
+    color: rgb(211, 190, 151);
+}
